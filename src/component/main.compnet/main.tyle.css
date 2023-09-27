@@ -1,0 +1,110 @@
+.widget {
+    height: 400px;
+    width: 650px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+      0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  }
+  .parentwidget{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  .widgeticon{
+    background-color: #fafafa;
+    /* border: 1px solid red; */
+    height: 167px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 101px;
+
+
+  }
+  .widgetmiddel{
+    height: 140px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .data{
+    width: 461px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .time{
+    width: 190px;
+    background-color: #70c1b3;
+  }
+  .tempnumber{
+    height: 138px;
+    width: 208px;
+    text-align: initial;
+  }
+  .text{
+    height: 138px;
+    width: 228px;
+  }
+  .digit{
+    color: white;
+    /* text-align: left; */
+    font-size: 69px;
+  }
+  .clouds{
+    color: white;
+    font-size: 52px;
+}
+  .city{
+    color: white;
+    font-size: 22px;
+  }
+  .tdate{
+    color: white;
+    font-size: 32px;
+  }
+  .fourdivparent{
+    background-color: #fafafa;
+    height: 93px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+
+  }
+  .fstdiv{
+  width: 162px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+
+  }
+  /* .sstdiv{
+    border: 1px solid red;
+    width: 162px;
+
+    }
+    .tstdiv{
+        border: 1px solid red;
+        width: 162px;
+
+        }
+        .ffstdiv{
+            border: 1px solid red;
+            width: 162px;
+            border-bottom-right-radius: 20px;
+
+
+
+            } */
+ .fstdivfeild{
+    width: 58px;
+    margin-top: -11px;
+    font-size: 31px;
+    color: #70c1b3;
+
+ }
+ .fstdivtext{
+    font-size: 19px;
+    text-align: initial;
+    margin-top: 17px;
+ }
+
